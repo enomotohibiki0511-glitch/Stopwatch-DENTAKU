@@ -22,7 +22,7 @@ function updateDisplay() {
   hoursEl.textContent = hours;
   minutesEl.textContent = minutes;
   secondsEl.textContent = seconds;
-  millisecondsEl.textContent = elapsedMilliseconds;
+  millisecondsEl.textContent = Math.floor(elapsedMilliseconds / 100);
 }
 
 
@@ -76,6 +76,7 @@ function handleReset() {
   if (isRunning) return;
 
   elapsedSeconds = 0;
+  elapsedMilliseconds = 0;
   updateDisplay();
 
   setButtonState('idle');
