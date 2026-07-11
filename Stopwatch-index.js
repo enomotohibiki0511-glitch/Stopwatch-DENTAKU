@@ -8,7 +8,8 @@ const stopBtn = document.getElementById('btn-stop');
 const resetBtn = document.getElementById('btn-reset');
 
 
-let elapsedSeconds = 0;   
+let elapsedSeconds = 0;
+let elapsedMilliseconds = 0;   
 let timerId = null;       
 let isRunning = false;    
 
@@ -21,7 +22,7 @@ function updateDisplay() {
   hoursEl.textContent = hours;
   minutesEl.textContent = minutes;
   secondsEl.textContent = seconds;
-  millisecondsEl.textContent = milliseconds;
+  millisecondsEl.textContent = elapsedMilliseconds;
 }
 
 
