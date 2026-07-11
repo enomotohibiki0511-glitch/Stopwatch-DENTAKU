@@ -3,13 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>ストップウォッチ</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="Stopwatch-style.css">
     <!-- jQuery を使う場合は読み込む -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   </head>
   <body>
-    <h3>ストップウォッチ</h3>
-    <!-- ここに表示部分とボタンを書いていきましょう -->
-    <script src="main.js"></script>
+    <div class="stopwatch-window">
+      <h1 class="title">ストップウォッチ</h1>
+
+      <div class="time-display">
+        <span id="hours">0</span>:<span id="minutes">0</span>:<span id="seconds">0</span>:<span id="milliseconds">0</span>
+      </div>
+
+      <div class="buttons">
+        <button class="btn-start">スタート</button>
+        <button class="btn-stop">ストップ</button>
+        <button class="btn-reset">リセット</button>
+      </div>
+
+    </div>
+    <script type="text/javascript" src="Stopwatch-index.js" charset="uft-8"></script>
   </body>
 </html>
