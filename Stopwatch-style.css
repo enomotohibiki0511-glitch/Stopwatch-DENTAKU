@@ -41,10 +41,6 @@ body {
   transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 898b8f4 (調整)
 .buttons button:not(:disabled) {
   background-color: #ffffff;
   border: 2px solid #333333;
@@ -60,10 +56,6 @@ body {
   background-color: #e8e8e8;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 898b8f4 (調整)
 .buttons button:disabled {
   background-color: #ececec;
   border: 1px solid #d5d5d5;
