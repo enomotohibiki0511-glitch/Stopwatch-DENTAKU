@@ -21,7 +21,7 @@ function updateDisplay() {
   hoursEl.textContent = hours;
   minutesEl.textContent = minutes;
   secondsEl.textContent = seconds;
-  millisecondsEl.textContent = 0;
+  millisecondsEl.textContent = milliseconds;
 }
 
 
