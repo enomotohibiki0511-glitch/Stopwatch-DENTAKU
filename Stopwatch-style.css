@@ -41,7 +41,7 @@ body {
   transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
 }
 
-/* 活性状態（押せるボタン）の共通スタイル */
+
 .buttons button:not(:disabled) {
   background-color: #ffffff;
   border: 2px solid #333333;
@@ -57,7 +57,7 @@ body {
   background-color: #e8e8e8;
 }
 
-/* 非活性状態（押せないボタン）の共通スタイル：色を薄くする */
+
 .buttons button:disabled {
   background-color: #ececec;
   border: 1px solid #d5d5d5;
