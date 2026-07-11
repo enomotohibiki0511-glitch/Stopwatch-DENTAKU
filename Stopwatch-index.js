@@ -49,9 +49,15 @@ function handleStart() {
   setButtonState('running'); 
 
   timerId = setInterval(() => {
-    elapsedSeconds++;
+    elapsedMilliseconds += 10;
+
+    if (elapsedMilliseconds >= 1000) {
+      elapsedSeconds += Math.floor(elapsedMilliseconds / 1000);
+      elapsedMilliseconds = elapsedMilliseconds % 1000;
+    }
+
     updateDisplay();
-  }, 1000);
+  }, 10);
 }
 
 
