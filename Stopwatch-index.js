@@ -41,10 +41,6 @@ function setButtonState(state) {
   }
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 898b8f4 (調整)
 function handleStart() {
   if (isRunning) return;
 
@@ -78,10 +74,6 @@ function handleReset() {
   setButtonState('idle');
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 898b8f4 (調整)
 startBtn.addEventListener('click', handleStart);
 stopBtn.addEventListener('click', handleStop);
 resetBtn.addEventListener('click', handleReset);
